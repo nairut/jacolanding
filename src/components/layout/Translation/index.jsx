@@ -10,7 +10,7 @@ const Translation = () => {
   const handleClick = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth', 
+      behavior: 'smooth',
     });
   }
   return (
