@@ -10,8 +10,8 @@ const Translation = () => {
   const handleClick = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth', \zxc\xzcx
-    }); 
+      behavior: 'smooth', 
+    });
   }
   return (
     <div className='section' style={{marginTop: MarginTop}}>
