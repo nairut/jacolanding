@@ -26,7 +26,7 @@ const Translation = () => {
       </div>
       <Button handleClick={handleClick} />
     </div>
-  )
+  ) 
 }
 
 export default Translation
