@@ -2,10 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 87%;
     background-color: #F2F5F7;
     border: 2px solid #C8982A;
-    border-radius: 40px;
+    border-radius: 91px;
     min-height: 413px;
 }
 
@@ -13,6 +13,10 @@
     flex-wrap: wrap;
     display: flex;
     gap: 22px;
+}
+
+select {
+    cursor: pointer;
 }
 
 label {
@@ -40,6 +44,7 @@ label {
 
 .input.file input {
     padding-top: 8px;
+    display: none;
 }
 
 

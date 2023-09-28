@@ -34,12 +34,16 @@ const Form = ({ texts}) => {
   ]
   const { currentStep, currentComponent, changeStep, isLastStep } = useForm(formComponents);
 
+  const handleSubmit = () => {
+    window.location.href = "/obrigado";
+  }
+
   return (
     <div className='form-container'>
       <div className="form-content">
       <Steps currentStep={currentStep}/>
       <div className="vertical-line"></div>
-      <FormContent isLastStep={isLastStep} texts={texts} currentComponent={currentComponent} changeStep={changeStep} currentStep={currentStep} />
+      <FormContent isLastStep={isLastStep} data={data} texts={texts} currentComponent={currentComponent} changeStep={changeStep} handleSubmit={handleSubmit} currentStep={currentStep} />
       </div>
     </div>
   )
